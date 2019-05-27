@@ -5,10 +5,12 @@ import CardContent from './CardContent';
 
 function CardContainer(props) {
   return (
-    <div class="card-container">
-      <CardBanner bannerImage={props.bannerImage} />
-      <CardContent />
-    </div>
+    <a href="https://reactjs.org/" target="_blank">
+      <div class="card-container">
+        <CardBanner bannerImage={props.bannerImage} />
+        <CardContent />
+      </div>
+    </a>
   )
 }
 

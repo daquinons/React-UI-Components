@@ -4,7 +4,7 @@ import HeaderMain from './HeaderMain';
 import './Header.css';
 
 function HeaderContainer(props) {
-  return(
+  return (
     <div className="header-container">
       <ImageThumbnail imageUrl={props.imageUrl} />
       <HeaderMain name={props.name} handle={props.handle} timestamp={props.timestamp} content={props.content} />

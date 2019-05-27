@@ -1,1 +1,26 @@
 /* All styles for your header Components live here */
+.header-container, .header-title {
+  display: flex;
+}
+
+.header-title {
+}
+
+.thumbnail {
+  width: 70px;
+  height: 70px;
+  padding: 0.4rem;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.handle, .timestamp {
+  color: grey;
+  font-weight: lighter;
+}
+
+.title {
+  padding: 1rem 0.4rem 0.6rem 0;
+}

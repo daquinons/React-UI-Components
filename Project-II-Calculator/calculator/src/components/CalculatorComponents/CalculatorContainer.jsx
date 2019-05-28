@@ -1,13 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 import CalculatorDisplay from '../DisplayComponents/CalculatorDisplay';
 import NumberButton from '../ButtonComponents/NumberButton';
 import ActionButton from '../ButtonComponents/ActionButton';
 import './Calculator.css';
 
 export default (props) => {
+  const [numberDisplay, setNumberDisplay] = useState(0);
   return (
     <div className="calculatorContainer">
-      <CalculatorDisplay />
+      <CalculatorDisplay numberDisplay={numberDisplay} />
       <ActionButton text="clear" />
       <NumberButton text="÷" red />
       <NumberButton text="7" />

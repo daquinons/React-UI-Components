@@ -16,6 +16,6 @@ export default (props) => {
     return <Button onClick={props.onClick} buttonStyle={buttonStyle} text={props.text} bold />;
   }
 
-  return <Button buttonStyle={buttonStyle} text={props.text} />;
+  return <Button onClick={props.onClick} buttonStyle={buttonStyle} text={props.text} />;
   
 }

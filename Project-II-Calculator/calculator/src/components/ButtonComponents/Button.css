@@ -1,0 +1,9 @@
+.bold {
+  font-weight: bold !important;
+}
+
+.red {
+  background-color: #a0011e !important;
+  font-weight: 400 !important;
+  color: white;
+}

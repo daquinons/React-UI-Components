@@ -11,6 +11,7 @@
 }
 
 .display-text {
+  margin-left: auto;
   margin-top: auto;
   font-size: 5rem;
   padding: 1rem;

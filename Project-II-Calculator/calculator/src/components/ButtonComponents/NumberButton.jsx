@@ -12,5 +12,5 @@ const buttonStyle = {
 };
 
 export default (props) => {
-  return props.red ? <Button buttonStyle={buttonStyle} text={props.text} red /> : <Button buttonStyle={buttonStyle} text={props.text} />
+  return props.red ? <Button buttonStyle={buttonStyle} text={props.text} red /> : <Button onClick={props.onClick} buttonStyle={buttonStyle} text={props.text} />
 }

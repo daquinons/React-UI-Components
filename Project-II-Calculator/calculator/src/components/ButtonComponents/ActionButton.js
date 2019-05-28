@@ -13,7 +13,7 @@ let buttonStyle = {
 
 export default (props) => {
   if (props.text === '0') {
-    return <Button buttonStyle={buttonStyle} text={props.text} bold />;
+    return <Button onClick={props.onClick} buttonStyle={buttonStyle} text={props.text} bold />;
   }
 
   return <Button buttonStyle={buttonStyle} text={props.text} />;
